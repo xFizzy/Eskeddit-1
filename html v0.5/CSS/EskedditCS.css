@@ -305,3 +305,23 @@ ul {
     max-width: 200px;  
     background-color: black;
 }
+/*Start Profile CSS */
+.profile-section {
+    width: 100%;
+    border: 1;
+    margin-top: 0;
+	padding: 12px;
+    margin: 0;
+}
+.profile-main {
+    width: 100%;
+    border: 1;
+	border-width: 5px;
+    margin-top: 0;
+	background-color: #ffcccc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 12px;
+    margin: 0;
+}
+
+/*End Profile CSS*/
