@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="CSS/EskedditCS.css">
+	<script src="eskedditJS.js"></script>
+<meta charset="utf-8">
+<title>Sign Up</title>
+	<script>
+	function changeimg() {
+	document.getElementById('winklogo').src='eskedditlogowinking.png';
+}
+
+function revertimg() {
+	document.getElementById('winklogo').src='eskedditlogo (3).png'
+}
+	</script>
+</head>
+
+<body>
+		<section class="toolbar">
+			<div class="topnav">
+				<a href="#subforum"> Subskeddits                                     <i class="arrow_down"></i></a>
+ 				<a href="portal.html">Portal</a>
+				<a href="#50/50">50/50</a>
+				<a href="csgo.html">CSGO</a>
+				<a href="#competitiveoverwatch">Competitive Overwatch</a>
+				<a href="#politics"> Poltics</a>
+				<a href="#random"> Random</a>
+				<a href="#mumblerap"> Mumble Rap</a>
+				<a href="#mildlyinfuriating">Mildly Infuriating</a>
+				<a href="#nicetry"> Nice Try</a>
+				<a href="#yesorno">Yes or No</a>
+				<a href="#ToD"> Truth or Dare </a>
+				<a href="holdmyredbull.html"> Hold my redbull </a>
+				<a href="#earthporn"> Earth Porn </a>
+				<a href="#askscience"> Ask Science </a>
+				<a href="#funny"> Funny </a>
+				<a href="#memes"> Memes </a>
+				<a href="#instantregret"> Instant Regret </a>
+				<a href="#crappydesign"> Crappy Design </a>
+				<a href="#softwaregore"> Software Gore </a>
+				<a href="#asktumblr"> Ask Tumblr</a>
+				<a href="#dogs"> Dogs </a>
+				<a href="#noonelikescats"> No one likes cats </a>
+				<a href="#sad"> Sad </a>
+				<a href="#awfultasegreatexecution"> Awful taste great execution</a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a href="#"></a>
+				<a class="active" href="signup.html" class="signup"> Sign Up </a>
+</div>
+		</section>
+<div id="main">
+		<header>
+			<div class="animclass">
+				<table>
+					<tr>
+						<div class="container">
+							<td>
+								<span onclick="openNav()">
+									<button type="button" class="animclass" id="buttonsidenav">
+										<div class="bar1"></div>
+										<div class="bar2"></div>
+										<div class="bar3"></div>
+									</button>
+								</span>
+							</td>
+						</div>
+						<td>
+						
+						</td>
+						
+						<td>
+							<div class="logo">
+								<img id="winklogo" src="CSS/eskedditlogo (3).png" alt="LOGO" onmouseover="changeimg()" onmouseout="revertimg()">
+							</div>
+						</td>
+						
+					</tr>
+				</table>
+			</div>
+		</header>
+	
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">About</a>
+  		<a href="#">Services</a>
+ 		<a href="#">Clients</a>
+  		<a href="#">Contact</a>
+</div>
+	<div class="signupform">
+<section>
+	<h2 style="text-align: center; color: #f22929;">SIGN UP</h2>	
+</section>
+	<p style="text-align: center">Below is a simple form that you need to fill out so we can have you in our database so you can get notified of new trending topics and also be in the chance for giveaways in certain months!</p>
+	
+	<form action="#action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+	 
+	<label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+	
+	 <label for="age">What's your current age?</label>
+	<input type="number" name="age" value="">
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+	  <p>Already signed up? Sign in <a href="#" style="color:dodgerblue">here</a>.</p>
+  </div>
+</form>
+</div>
+	<!-- this is for the search function if i need to utilise this later by adding it in.
+		<section>
+			<table border="2" class="searchborder" align="right">
+				<td>
+					<div class="searchbar">
+						<div class="search-container">
+							<p> Search for whatever your looking for</p>
+  							<input type="text" placeholder="Search..">
+							<button type="submit">Search</button>
+						</div>
+					</div>
+				</td>
+			</table>
+		</section>
+	 -->
+</div>
+</body>
+</html>
